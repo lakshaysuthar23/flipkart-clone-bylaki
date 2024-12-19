@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F5FF;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #2874F0;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+.logo{
+    position: relative;
+    top: -5px;
+}
+.search-bar{
+    width:400px;
+    height: 30px;
+    padding: 4px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #F0F5FF;
+}
+.header-right{
+    padding: 5px 0px;
+}
+.header-right a i{
+   position: relative;
+   top: 4px;
+   left: -6px;
+}
+.header-right a{
+    text-decoration: none;
+    position: relative;
+    top: -4px;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.header-right a #icon-1{
+    position: relative;
+    top: 0px;
+    left: -10px;
+}
+.header-right a:hover{
+    background-color: white;
+    color: black;
+
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    width: 1620px;
+    height: 120px;
+    background-color: white;
+    margin: 10px auto;
+    
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 70px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.items img{
+    position: relative;
+    left: 35px;
+}
+.items a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.slide-banner{
+    width: 1620px;
+    height: 269px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: absolute;
+}
+.btn{
+    width: 45px;
+    height: 40px;
+    font-size: 20px;
+    background-color: white;
+}
+.section2{
+    position: relative;
+    width: 1620px;
+    margin: 0 auto;
+}
+#btn1{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+#btn2{
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+.card-container{
+    width: 1620px;
+    margin: 20px auto;
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+.card-container h2{
+    margin: 10px 12PX;
+}
+.card{
+    width: 1620px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+.card1{
+    text-align: center;
+}
+#btn01{
+  position: relative; 
+   left: 1560px;
+}
