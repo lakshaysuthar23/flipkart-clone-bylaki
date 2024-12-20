@@ -99,6 +99,7 @@ header{
     height: 40px;
     font-size: 20px;
     background-color: white;
+    border: none;
 }
 .section2{
     position: relative;
@@ -107,12 +108,16 @@ header{
 }
 #btn1{
     position: absolute;
-    top: 120px;
+    top: 100px;
+    width: 25px;
+    height: 80px;
     left: 0px;
 }
 #btn2{
     position: absolute;
-    top: 120px;
+    top: 100px;
+    width: 25px;
+    height: 80px;
     right: 0px;
 }
 .card-container{
@@ -133,10 +138,67 @@ header{
     position: relative;
     transition: transform 0.5s ease;
 }
+.card-1{
+    width: 1620px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+.card-2{
+    width: 1620px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    transition: transform 0.5s ease;
+}
 .card1{
     text-align: center;
 }
 #btn01{
   position: relative; 
    left: 1560px;
+   border: none;
+   background-color: antiquewhite;
+   border-radius: 25px;
+   box-shadow: 2px 2px 5px rgb(202, 202, 202);
+}
+#btn02{
+  position: relative; 
+   left: -50px;
+   border: none;
+   background-color: antiquewhite;
+   border-radius: 25px;
+   box-shadow: 2px 2px 5px rgb(202, 202, 202);
+}
+footer{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.footer1{
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #8D8787;
+}
+.footer2{
+    background-color: #212121;
+}
+.footer2-1{
+    padding: 20px 50px;
+    display: flex;
+    gap: 9%;
+}
+#footer2-1{
+    display: flex;
+    flex-direction: column;
+}
+#footer2-1 a{
+    text-decoration: none;
+    margin: 4px 0;
+    color: white;
+}
+#color{
+    color: #8D8787;
+    margin: 4px 0;
 }
